@@ -1,0 +1,141 @@
+@import "reset.css";
+@import "fonts.css";
+@import "responsive.css";
+
+body {
+
+	background-color: #ffffff;
+	border-top: solid 3px #0076c0;
+	border-bottom: solid 3px #0076c0;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif, arial;
+	font-size: 0.8em;
+	color: #212121;
+}
+
+a {
+	text-decoration: none;
+	color: #0076c0;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.slider-inner {
+	margin: 30px 0px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.ts-viewer ul li {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.ts-viewer ul li section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.ts-slider-left-ul li {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+
+.ts-slider-left-ul li section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.ts-slider-left-ul li a {
+	text-transform: uppercase;
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+}
+
+.ts-slider-left-ul li a:hover > .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#000;
+    opacity:0.1;
+    z-index: 1000;
+}
+
+
+.ts-viewer ul li a {
+	text-transform: uppercase;
+	display: block;
+	color: #ffffff;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.slider-inner ul li a h3 {
+	display: inline-block;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.ts-viewer {
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+
+.ts-active {
+	opacity: 0.7;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+}
+
+.ts-newsflash {
+	height: 50px;
+	background-color: rgb(255, 51, 51);
+	background-color: rgba(255, 51, 51, 0.7);
+	-webkit-animation: pulse 5s infinite alternate;
+	width: 100%;
+}
+
+@keyframes pulse { 0% {
+		background-color: rgba(255, 51, 51, 0.7);
+	} 50% {
+		background-color: rgba(255, 51, 51, 1);
+	} 100% {
+		background-color: rgba(255, 51, 51, 0.7);
+	} 
+} 
+
+@-webkit-keyframes pulse { 0% {
+		background-color: rgba(255, 51, 51, 0.7);
+	} 50% {
+		background-color: rgba(255, 51, 51, 1);
+	} 100% {
+		background-color: rgba(255, 51, 51, 0.7);
+	} 
+} 
+
+.ts-newsflash a {
+	display: block;
+	padding-top: 14px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.overlay {
+	position: absolute !important;
+}

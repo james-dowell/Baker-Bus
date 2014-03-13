@@ -1,0 +1,126 @@
+@media screen and (min-width:1180px) {
+	.slider-inner {
+		max-width: 1100px;
+	}
+
+	.ts-slider-left-ul li {
+		width: 200px;
+		height: 150px;
+		padding: 10px;
+	}
+
+	.ts-viewer, .ts-viewer ul li a  {
+		width: 500px;
+		height: 300px;
+	}
+
+	.slider-inner ul li a h3 {
+		font-size: 2em !important;
+	}
+}
+
+@media screen and (min-width:1040px) and (max-width:1179px) {
+	.slider-inner {
+		max-width: 1000px;
+		margin: 30px auto !important;
+	}
+
+	.ts-slider-left-ul li {
+		width: 182px;
+		height: 136px;
+		padding: 10px;
+	}
+
+	.ts-viewer, .ts-viewer ul li a  {
+		width: 454px;
+		height: 272px;
+	}
+	.slider-inner ul li a h3 {
+		font-size: 1.6em !important;
+	}
+}
+
+@media screen and (min-width: 840px) and (max-width:1039px) {
+	.slider-inner {
+		max-width: 800px;
+		margin: 30px auto !important;
+	}
+
+	.ts-slider-left-ul {
+		overflow: hidden;
+	}
+
+	.ts-slider-left-ul li {
+		width: 140px;
+		height: 100px;
+		padding: 10px;
+	}
+
+	.ts-viewer, .ts-viewer ul li a {
+		width: 380px;
+		height: 200px;
+	}
+	.slider-inner ul li a h3 {
+		font-size: 1.4em !important;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width:839px) {
+	.slider-inner {
+		max-width: 660px;
+		margin: 30px auto !important;
+	}
+
+	.ts-slider-left-ul {
+		overflow: hidden;
+	}
+
+	.ts-slider-left-ul li {
+		width: 140px;
+		height: 100px;
+		padding: 10px;
+	}
+
+	.ts-viewer, .ts-viewer ul li a {
+		width: 380px;
+		height: 300px;
+	}
+	.slider-inner ul li a h3 {
+		font-size: 1.4em !important;
+	}
+}
+
+@media screen and (max-width: 699px) {
+	.slider-inner {
+		max-width: 660px;
+		margin: 30px auto !important;
+	}
+
+	.ts-slider-left-ul {
+		margin: 0px auto;
+		overflow: hidden;
+		max-width: 550px;
+	}
+
+	.ts-slider-left-ul li {
+		width: 33.33334%;
+		max-width: 185px;
+		height: 100px;
+		padding: 10px;
+	}
+
+	.ts-viewer, .ts-viewer ul li a {
+		width: 380px;
+		height: 300px;
+		display: none;
+	}
+	.slider-inner ul li a h3 {
+		font-size: 1.4em !important;
+	}
+}
+
+@media screen and (max-width: 459px) {
+	.slider-inner ul li a h3 {
+		font-size: 1em !important;
+	}
+}
